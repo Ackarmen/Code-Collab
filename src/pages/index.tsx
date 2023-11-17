@@ -5,7 +5,7 @@ export default function Home() {
 	return (
 		<>
 			<Seo title="Code Collab" description="description..." />
-			<h1>Hello!!!!!!!</h1>
+			<h1>Bienvenue sur Code Collab, la platforme collaborative!</h1>
 		</>
 	);
 }
