@@ -2,32 +2,31 @@
 module.exports = {
 	content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
 	theme: {
-
-    colors: {
-      white: "#ffffff",
-      primary: {  
-        200:"#efeffc",
-        300:"#cfd0f6",
-        400:"#7f81e8",
-        DEFAULT:"#5F62E2",
-        600: "#5658CB",
-      },
-      secondary: {  
-        200:"#eaf8f4",
-        300:"#bfe9de",
-        400:"#56c4a7",
-        DEFAULT:"#2AB691",
-        600: "#26a482",
-      },
-      gray: {  
-        400:"#f2f2f2",
-        500:"#e5e5e5",
-        600:"#b2b2b2",
-        700:"#808080",
-        800:"#333333",
-        DEFAULT:"#1D1D1D",
-      },
-    },
+		colors: {
+			white: "#ffffff",
+			primary: {
+				200: "#efeffc",
+				300: "#cfd0f6",
+				400: "#7f81e8",
+				DEFAULT: "#5F62E2",
+				600: "#5658CB",
+			},
+			secondary: {
+				200: "#eaf8f4",
+				300: "#bfe9de",
+				400: "#56c4a7",
+				DEFAULT: "#2AB691",
+				600: "#26a482",
+			},
+			gray: {
+				400: "#f2f2f2",
+				500: "#e5e5e5",
+				600: "#b2b2b2",
+				700: "#808080",
+				800: "#333333",
+				DEFAULT: "#1D1D1D",
+			},
+		},
 
 		fontSize: {
 			"8xl": [
@@ -46,7 +45,7 @@ module.exports = {
 					fontWeight: "600",
 				},
 			],
-      "6xl": [
+			"6xl": [
 				"55px",
 				{
 					lineHeight: "60px",
@@ -54,7 +53,7 @@ module.exports = {
 					fontWeight: "500",
 				},
 			],
-      "5xl": [
+			"5xl": [
 				"48px",
 				{
 					lineHeight: "54px",
@@ -62,7 +61,7 @@ module.exports = {
 					fontWeight: "500",
 				},
 			],
-      "4xl": [
+			"4xl": [
 				"36px",
 				{
 					lineHeight: "44px",
@@ -70,7 +69,7 @@ module.exports = {
 					fontWeight: "500",
 				},
 			],
-      "3xl": [
+			"3xl": [
 				"28px",
 				{
 					lineHeight: "34px",
@@ -78,7 +77,7 @@ module.exports = {
 					fontWeight: "500",
 				},
 			],
-      "2xl": [
+			"2xl": [
 				"24px",
 				{
 					lineHeight: "30px",
@@ -86,7 +85,7 @@ module.exports = {
 					fontWeight: "400",
 				},
 			],
-      xl: [
+			xl: [
 				"24px",
 				{
 					lineHeight: "30px",
@@ -94,7 +93,7 @@ module.exports = {
 					fontWeight: "400",
 				},
 			],
-      lg: [
+			lg: [
 				"21px",
 				{
 					lineHeight: "30px",
@@ -102,7 +101,7 @@ module.exports = {
 					fontWeight: "400",
 				},
 			],
-      base: [
+			base: [
 				"17px",
 				{
 					lineHeight: "25px",
@@ -110,7 +109,7 @@ module.exports = {
 					fontWeight: "400",
 				},
 			],
-      sm: [
+			sm: [
 				"15px",
 				{
 					lineHeight: "23px",
@@ -118,7 +117,7 @@ module.exports = {
 					fontWeight: "400",
 				},
 			],
-      caption1: [
+			caption1: [
 				"20px",
 				{
 					lineHeight: "24px",
@@ -126,7 +125,7 @@ module.exports = {
 					fontWeight: "400",
 				},
 			],
-      caption2: [
+			caption2: [
 				"18px",
 				{
 					lineHeight: "20px",
@@ -134,7 +133,7 @@ module.exports = {
 					fontWeight: "400",
 				},
 			],
-      caption3: [
+			caption3: [
 				"16px",
 				{
 					lineHeight: "18px",
@@ -142,7 +141,7 @@ module.exports = {
 					fontWeight: "400",
 				},
 			],
-      caption4: [
+			caption4: [
 				"13px",
 				{
 					lineHeight: "15px",
@@ -150,6 +149,10 @@ module.exports = {
 					fontWeight: "400",
 				},
 			],
+		},
+		borderRadius: {
+			DEFAULT: "10px",
+			full: "9999px",
 		},
 		extend: {},
 	},
